@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Learn JS</title>
+	<title>FrontEnd Dev</title>
+	<script src="myScript.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<p>Page 2</p>
+<body>
+<h1>Part 1</h1>
+<p>This is what JS can do!</p>
+<p id="change">Press the button to change this text.</p>
+<button type="button" onclick="cambiaTexto()">Press me!</button>
+<button type="button" onclick="volverTexto()">Press me to revert text!</button>
+<h1>Part 2</h1>
+<p>Enciende y apaga la bombilla!</p>
+<button type="button" onclick="bombillaOn()">Enciende la bombilla!</button>
+<img id="bombilla" src="http://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+<button type="button" onclick="bombillaOff()">Apaga la bombilla!</button>
+<br>
 <audio controls>
 	<source src="anotheryou.mp3" type="audio/mpeg">
 </audio>
+<p>Click <a href="anotheryou.mp3" id="dwlink" download>here</a> to download the audio file</p>
+<a href="anotheryou.mp3" id="dw" hidden download></a>
+<button id="download" type="button" onclick="contentDw()">Download Song</button>
+<h1><a href="index.html">HOME</a></h1>
+</body>
 </body>
 </html>
