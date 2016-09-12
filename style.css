@@ -1,0 +1,10 @@
+#dwlink:hover {
+color : green;
+}
+#dwlink:visited {
+	color : red;
+	background-color: transparent;
+}
+#dwlink:link {
+	color: pink;
+}
